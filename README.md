@@ -18,7 +18,7 @@ web. Gosto de aprender na prática, mexer com código e montar interfaces modern
 
 ---
 
-<h2>🛠️ Tecnologias</h2>
+<h2 align="center">🛠️ Technologys</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,git,github" />
@@ -26,15 +26,15 @@ web. Gosto de aprender na prática, mexer com código e montar interfaces modern
 
 ---
 
-<h2>📂 Projetos</h2>
+<h2>📂 Projects</h2>
 
 <ul>
-  <li>🖤 <strong>Troupiet</strong> — Loja de roupas (HTML, CSS e JS)</li>
+  <li><strong>Troupiet</strong> — Loja de roupas (HTML, CSS e JS)</li>
 </ul>
 
 ---
 
-<h2>📫 Contato</h2>
+<h2>📫 Contact</h2>
 
 <p>
 📧 Email: <strong>pedaeadr@gmail.com</strong><br>
