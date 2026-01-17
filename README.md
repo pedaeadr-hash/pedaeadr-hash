@@ -12,8 +12,9 @@
 
 <h2 align="center">ABOUT ME</h2>
 
-<p align="center">IM STUDENT OF TECHNOLOGY, FOCUSED IN FRONT-END AND CREATER OF PROJECT<br>
-   IM LIKE OF LEARN IN PRACTICE, CREATER INTERFACE MODERN AND LEARN WITCH PROCESSD
+<p align="center">I'm a technology student focused on front-end development and project creation.<br>
+I enjoy learning through practice, working with code, and building modern interfaces.
+
 </p>
 
 ---
