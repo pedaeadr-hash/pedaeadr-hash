@@ -1,16 +1,47 @@
-## Hi there 👋
+<h1 align="center">👋 Olá, eu sou o Adrian Ariel</h1>
 
-<!--
-**pedaeadr-hash/pedaeadr-hash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  💻 Estudante de tecnologia | Front-end <br>
+  🎓 Ensino Médio + Técnico em Administração <br>
+  🚀 Criando projetos web
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h2>🧠 Sobre mim</h2>
+
+<p>
+Sou estudante apaixonado por tecnologia, focado em front-end e criação de projetos
+web. Gosto de aprender na prática, mexer com código e montar interfaces modernas.
+</p>
+
+---
+
+<h2>🛠️ Tecnologias</h2>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github" />
+</p>
+
+---
+
+<h2>📂 Projetos</h2>
+
+<ul>
+  <li>🖤 <strong>Troupiet</strong> — Loja de roupas (HTML, CSS e JS)</li>
+</ul>
+
+---
+
+<h2>📫 Contato</h2>
+
+<p>
+📧 Email: <strong>pedaeadr@gmail.com</strong><br>
+💼 LinkedIn: <a href="https://www.linkedin.com/">https://www.linkedin.com/in/adrian-ariel-2b23b3349/</a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=pedaeadr-hash&show_icons=true&theme=dark" />
+</p>
