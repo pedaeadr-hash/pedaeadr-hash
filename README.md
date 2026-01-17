@@ -18,7 +18,6 @@ web. Gosto de aprender na prática, mexer com código e montar interfaces modern
 
 ---
 
-<h2 align="center">🛠️ Technologys</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,git,github" />
