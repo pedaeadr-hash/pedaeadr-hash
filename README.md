@@ -1,9 +1,10 @@
 <h1 align="center">HELLO MY NAME IS ADRIAN ARIEL</h1>
 
 <div align="center">
-   <p>STUDENT OF TECHNOLOGY</p>
-   <p>HIGH SCHOOL + TECHNICAL IN ADMINISTRATION</p>
-   <p>HTML, CSS, JS, PYTHON</p>
+   <p>Technology Student</p>
+   <p>High School + Technical Degree in Administration</p>
+   <p>HTML • CSS • JavaScript • Python</p>
+
 </div>
 
 
