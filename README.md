@@ -17,7 +17,7 @@
 </p>
 
 ---
-<h2 align="left">TECHNOLOGYS</h2>
+<h2 align="center">TECHNOLOGYS</h2>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,git,github" />
 </p>
