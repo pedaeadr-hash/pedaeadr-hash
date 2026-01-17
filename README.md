@@ -10,11 +10,10 @@
 
 ---
 
-<h2>🧠 Sobre mim</h2>
+<h2>ABOUT ME</h2>
 
-<p>
-Sou estudante apaixonado por tecnologia, focado em front-end e criação de projetos
-web. Gosto de aprender na prática, mexer com código e montar interfaces modernas.
+<p>IM STUDENT OF TECHNOLOGY, FOCUSED IN FRONT-END AND CREATER OF PROJECT<br>
+   IM LIKE OF LEARN IN PRACTICE, CREATER INTERFACE MODERN AND LEARN WITCH PROCESSD
 </p>
 
 ---
