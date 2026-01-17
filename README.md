@@ -1,8 +1,8 @@
 <h1 align="center">HELLO MY NAME IS ADRIAN ARIEL</h1>
 
 <div align="center">
-   <p>Student of technology </p>
-   <p>High school + Technical  in administration</p>
+   <p>STUDENT OF TECHNOLOGY</p>
+   <p>HIGH SCHOOL + TECHNICAL IN ADMINISTRATION</p>
    <p>HTML, CSS, JS, PYTHON</p>
 </div>
 
