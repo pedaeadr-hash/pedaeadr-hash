@@ -1,9 +1,9 @@
-<h1 align="center">👋 Olá, eu sou o Adrian Ariel</h1>
+<h1 align="center">Hello, my name is Adrian Ariel</h1>
 
-<p align="center">
-  💻 Estudante de tecnologia | Front-end <br>
-  🎓 Ensino Médio + Técnico em Administração <br>
-  🚀 Criando projetos web
+<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif; 'letter-spacing:2px;">
+  💻 student of technology | FullStack <br>
+  🎓 High School + technical in Administration <br>
+  🚀 creater of projects in HTML, CSS, and JS
 </p>
 
 ---
