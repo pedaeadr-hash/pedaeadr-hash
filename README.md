@@ -1,6 +1,6 @@
 <h1 align="center">Hello, my name is Adrian Ariel</h1>
 
-<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif; letter-spacing:2px;">
+<p align="center" style="font-family: Trebuchet MS;">
   💻 Student of Technology | Full Stack <br>
   🎓 High School + Technical in Administration <br>
   🚀 Creator of projects in HTML, CSS, and JS
@@ -20,7 +20,7 @@ web. Gosto de aprender na prática, mexer com código e montar interfaces modern
 
 <h2>🛠️ Tecnologias</h2>
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,git,github" />
 </p>
 
