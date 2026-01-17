@@ -1,9 +1,9 @@
 <h1 align="center">Hello, my name is Adrian Ariel</h1>
 
 <div align="center">
-   S T U D E N T   O F   T E C H N O L O G Y <br>
-   H I G H   S C H O O L   +   T E C H N I C A L <br>
-   H T M L   •   C S S   •   J S
+   S T U D E N T     O F     T E C H N O L O G Y <br>
+   H I G H     S C H O O L     +     T E C H N I C A L <br>
+   H T M L     •     C S S     •     J S
 </div>
 
 
