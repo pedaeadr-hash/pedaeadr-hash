@@ -1,4 +1,5 @@
-<h1 align="center">HELLO MY NAME IS ADRIAN ARIEL</h1>
+<h1 align="center">HELLO, I'M ADRIAN ARIEL
+</h1>
 
 <div align="center">
    <p>Technology Student</p>
@@ -21,12 +22,12 @@ I enjoy learning through practice, working with code, and building modern interf
 ---
 <h2 align="center">TECHNOLOGYS</h2>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,github" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,git,github" />
 </p>
 
 ---
 
-<h2>📂 Projects</h2>
+<h2>Projects</h2>
 
 <ul>
   <li><strong>Troupiet</strong> — Loja de roupas (HTML, CSS e JS)</li>
@@ -34,7 +35,7 @@ I enjoy learning through practice, working with code, and building modern interf
 
 ---
 
-<h2>📫 Contact</h2>
+<h2>Contact</h2>
 
 <p>
 📧 Email: <strong>pedaeadr@gmail.com</strong><br>
