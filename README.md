@@ -3,6 +3,7 @@
 <div align="center">
    <p>Student of technology </p>
    <p>High school + Technical  in administration</p>
+   <p>HTML, CSS, JS, PYTHON</p>
 </div>
 
 
