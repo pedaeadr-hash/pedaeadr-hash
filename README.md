@@ -27,17 +27,17 @@ I enjoy learning through practice, working with code, and building modern interf
 
 ---
 
-<h2>Projects</h2>
+<h2 align="center">Projects</h2>
 
-<ul>
-  <li><strong>Troupiet</strong> — Loja de roupas (HTML, CSS e JS)</li>
+<ul align="center">
+  <li align="center"><strong>Troupiet</strong> — Loja de roupas (HTML, CSS e JS)</li>
 </ul>
 
 ---
 
-<h2>Contact</h2>
+<h2 align="center">Contact</h2>
 
-<p>
+<p align="center">
 📧 Email: <strong>pedaeadr@gmail.com</strong><br>
 💼 LinkedIn: <a href="https://www.linkedin.com/">https://www.linkedin.com/in/adrian-ariel-2b23b3349/</a>
 </p>
