@@ -1,10 +1,11 @@
 <h1 align="center">Hello, my name is Adrian Ariel</h1>
 
-<p align="center" style="font-family: Trebuchet MS;">
-  💻 Student of Technology | Full Stack <br>
-  🎓 High School + Technical in Administration <br>
-  🚀 Creator of projects in HTML, CSS, and JS
-</p>
+<div align="center">
+   S T U D E N T   O F   T E C H N O L O G Y <br>
+   H I G H   S C H O O L   +   T E C H N I C A L <br>
+   H T M L   •   C S S   •   J S
+</div>
+
 
 
 ---
