@@ -4,7 +4,7 @@
 <div align="center">
    <p>Technology Student</p>
    <p>High School + Technical Degree in Administration</p>
-   <p>HTML • CSS • JavaScript • Python</p>
+   <p>HTML • CSS • JavaScript • React • Python</p>
 
 </div>
 
