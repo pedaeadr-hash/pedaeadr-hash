@@ -13,7 +13,7 @@
 <p align="center">
 I’m a technology student focused on <strong>front-end development</strong> and creative projects.<br>
 I learn best by building, experimenting with code, and crafting modern, dark-styled interfaces.<br><br>
-🕯️ Curious mind • Dark aesthetics • Clean code
+ Curious mind • Dark aesthetics • Clean code
 </p>
 
 ---
@@ -26,7 +26,7 @@ I learn best by building, experimenting with code, and crafting modern, dark-sty
 
 ---
 
-<h2 align="center">🕯️ PROJECTS</h2>
+<h2 align="center"> PROJECTS</h2>
 
 <ul align="center">
   <li>
