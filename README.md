@@ -58,10 +58,4 @@ Meu foco de desenvolvimento transita entre a criação de interfaces de usuário
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pedaeadr-hash&show_icons=true&theme=tokyonight" />
-</p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedaeadr-hash&layout=compact&theme=tokyonight" />
-</p>
