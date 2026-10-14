@@ -1,61 +1,107 @@
-<h1 align="center">Adrian Ariel</h1>
-<h3 align="center">Desenvolvedor de Software | Estudante de Análise e Desenvolvimento de Sistemas</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,python,cs,dotnet,git,github&theme=dark" />
+<img src="./assets/header.svg" width="100%" alt="Adrian Ariel — Desenvolvedor de Software" />
+
+<br>
+
+<a href="https://www.linkedin.com/in/adrian-ariel-2b23b3349/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=58a6ff" alt="LinkedIn" /></a>
+<a href="mailto:pedaeadr@gmail.com"><img src="https://img.shields.io/badge/E--mail-0d1117?style=flat-square&logo=gmail&logoColor=58a6ff" alt="E-mail" /></a>
+
+</div>
+
+<br>
+
+### Sobre
+
+Desenvolvedor focado em **APIs REST com C# / ASP.NET Core** e **interfaces em React**, cursando Análise e Desenvolvimento de Sistemas.
+
+Minha formação técnica em Administração me faz começar pelo problema, não pelo código: entender a regra de negócio, mapear o fluxo e só então modelar a solução. No desenvolvimento, prezo por orientação a objetos, código limpo e projetos que funcionam de ponta a ponta.
+
+```csharp
+public record Adrian
+{
+    public string   Formacao    => "Análise e Desenvolvimento de Sistemas (cursando)";
+    public string[] Back        => ["C#", "ASP.NET Core", "APIs REST"];
+    public string[] Front       => ["React", "JavaScript", "HTML", "CSS"];
+    public string[] Extras      => ["Python", "Git", "Automação"];
+    public string   Diferencial => "Regra de negócio antes do código.";
+}
+```
+
+<br>
+
+### Como eu construo
+
+O front em React é compilado e servido pela própria API em ASP.NET Core a partir da pasta `wwwroot`: um único deploy, mesma origem (sem dor de cabeça com CORS) e rodando em servidor local.
+
+```mermaid
+flowchart LR
+    A[React] -- npm run build --> B[wwwroot]
+    B --> C[ASP.NET Core]
+    C <-- REST / JSON --> D[(Dados)]
+```
+
+<br>
+
+### Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,react,js,html,css,py,git,github,vscode,visualstudio&theme=dark" alt="Stack" />
 </p>
 
----
+<br>
 
-<h2>Sobre Mim</h2>
+### Projetos
 
-<p>
-Atualmente cursando Análise e Desenvolvimento de Sistemas (ADS), com forte foco na construção de aplicações estruturadas e escaláveis. Minha formação técnica em Administração atua como um diferencial prático, proporcionando uma base sólida para a compreensão de regras de negócios, otimização de fluxos de trabalho e levantamento preciso de requisitos de sistemas.
-</p>
-<p>
-Meu foco de desenvolvimento transita entre a criação de interfaces de usuário responsivas e a estruturação de arquiteturas back-end. Desenvolvo aplicações com ênfase em Programação Orientada a Objetos (POO), estruturação robusta de dados e princípios de código limpo para a resolução de problemas reais.
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SEU_USUARIO/EclipseWall-API"><b>EclipseWall-API</b></a><br>
+      <sub>Web API em ASP.NET Core que serve a plataforma de wallpapers EclipseWalls.</sub><br><br>
+      <code>C#</code> <code>ASP.NET Core</code> <code>REST</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SEU_USUARIO/Dropbase-BE"><b>Dropbase-BE</b></a><br>
+      <sub>Backend do Dropbase: upload, armazenamento e gerenciamento de arquivos.</sub><br><br>
+      <code>C#</code> <code>ASP.NET Core</code> <code>REST</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SEU_USUARIO/Nexus"><b>Nexus</b></a><br>
+      <sub>Clone do Discord com servidores, canais, mensagens em tempo real e chamadas de voz e vídeo.</sub><br><br>
+      <code>JavaScript</code> <code>Tempo real</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SEU_USUARIO/GhostPad"><b>GhostPad</b></a><br>
+      <sub>Usa o celular como ponte Bluetooth para jogar no PC com qualquer controle, emulando um Xbox 360 virtual.</sub><br><br>
+      <code>Python</code> <code>Flet</code> <code>Bluetooth</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SEU_USUARIO/TimeSleep"><b>TimeSleep</b></a><br>
+      <sub>Sleep timer para PC inspirado nas TVs: dial circular, janela própria e notificações.</sub><br><br>
+      <code>JavaScript</code> <code>Desktop</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SEU_USUARIO/Steam"><b>Steam</b></a><br>
+      <sub>Site de jogos com visual escuro e imersivo: carrossel de destaques, lançamentos e trailers.</sub><br><br>
+      <code>JavaScript</code> <code>UI</code>
+    </td>
+  </tr>
+</table>
 
----
+<br>
 
-<h2>Tecnologias e Ferramentas</h2>
+### Agora
 
-<ul>
-  <li><strong>Linguagens e Frameworks:</strong> C#, .NET, Python, JavaScript, React, HTML5, CSS3</li>
-  <li><strong>Competências Principais:</strong> Programação Orientada a Objetos (POO), Arquitetura de UI/UX, Automação de Dados, Análise de Sistemas</li>
-  <li><strong>Ferramentas e Versionamento:</strong> Git, GitHub, Terminal/CLI</li>
-</ul>
+- Aprofundando arquitetura de APIs REST em C#
+- Integrando React e ASP.NET Core em projetos completos
+- Aberto a oportunidades e colaborações
 
----
+<br>
 
-<h2>Projetos em Destaque</h2>
-
-<ul>
-  <li>
-    <strong>Sistema de Gerenciamento de Ordens de Serviço (C# / .NET)</strong><br>
-    Aplicação back-end via console para gerenciamento de chamados técnicos. Implementação de princípios de POO, coleções dinâmicas na memória e validação de dados, substituindo registros manuais de manutenção de hardware e software por relatórios estruturados.
-  </li>
-  <br>
-  <li>
-    <strong>Interfaces Web para Marcas (React / JS / CSS)</strong><br>
-    Desenvolvimento de interfaces web modernas e baseadas em componentes para projetos como Estona e Troupiet. Foco em design responsivo, gerenciamento de estado e estética minimalista voltada para e-commerce e apresentação corporativa.
-  </li>
-  <br>
-  <li>
-    <strong>Automação de Processos (Python)</strong><br>
-    Utilização de scripts e bibliotecas Python para manipulação de dados e automação de tarefas periféricas em computadores, visando a otimização de fluxos operacionais e redução de trabalho repetitivo.
-  </li>
-</ul>
-
----
-
-<h2>Contato</h2>
-
-<p>
-<strong>E-mail:</strong> pedaeadr@gmail.com<br>
-<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adrian-ariel-2b23b3349/" target="_blank">linkedin.com/in/adrian-ariel</a>
-</p>
-
----
-
-
+<div align="center">
+  <sub>Construindo, quebrando e aprendendo, um commit por vez.</sub>
+</div>
