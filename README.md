@@ -30,19 +30,6 @@ public record Adrian
 
 <br>
 
-### Como eu construo
-
-O front em React é compilado e servido pela própria API em ASP.NET Core a partir da pasta `wwwroot`: um único deploy, mesma origem (sem dor de cabeça com CORS) e rodando em servidor local.
-
-```mermaid
-flowchart LR
-    A[React] -- npm run build --> B[wwwroot]
-    B --> C[ASP.NET Core]
-    C <-- REST / JSON --> D[(Dados)]
-```
-
-<br>
-
 ### Stack
 
 <p align="left">
