@@ -1,73 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Adrian Ariel — C#, React e SQL">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d17"/>
+      <stop offset=".55" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a2a"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#62a5ff" stop-opacity=".08"/>
+      <stop offset=".52" stop-color="#62a5ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#bd8cff" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9e8ff"/>
+      <stop offset=".42" stop-color="#6aa9ff"/>
+      <stop offset=".74" stop-color="#9a7bff"/>
+      <stop offset="1" stop-color="#d9e8ff"/>
+    </linearGradient>
+    <radialGradient id="corona">
+      <stop offset=".48" stop-color="#4b83d9" stop-opacity=".03"/>
+      <stop offset=".72" stop-color="#6daaff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#6daaff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx=".34" cy=".3">
+      <stop offset="0" stop-color="#182740"/>
+      <stop offset=".7" stop-color="#0a101c"/>
+      <stop offset="1" stop-color="#050911"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#b5c9e8" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <style>
+      .title{font:700 52px "Segoe UI",-apple-system,BlinkMacSystemFont,Arial,sans-serif;letter-spacing:-1.8px;fill:#f3f7ff}
+      .eyebrow{font:600 12px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:3px;fill:#8ba1bd}
+      .stack{font:500 15px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1px;fill:#a8bad2}
+      .accent{fill:#7db5ff}
+      .ringA{fill:none;stroke:url(#ring);stroke-width:1.5;stroke-dasharray:72 20 12 26;transform-origin:950px 150px;animation:orbit 18s linear infinite}
+      .ringB{fill:none;stroke:#8dbbff;stroke-opacity:.28;stroke-width:1;stroke-dasharray:2 8;transform-origin:950px 150px;animation:orbit 28s linear infinite reverse}
+      .beam{stroke:url(#ring);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:14 180;animation:scan 4.5s ease-in-out infinite}
+      .glow{animation:breathe 4.8s ease-in-out infinite}
+      .star{animation:twinkle 3s ease-in-out infinite}
+      .delay1{animation-delay:1s}.delay2{animation-delay:1.8s}.delay3{animation-delay:2.4s}
+      .reveal{opacity:0;animation:reveal 1.2s cubic-bezier(.2,.7,.2,1) .2s forwards}
+      .reveal2{opacity:0;animation:reveal 1.2s cubic-bezier(.2,.7,.2,1) .48s forwards}
+      .cursor{animation:blink 1.1s steps(1) infinite}
+      @keyframes reveal{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes orbit{to{transform:rotate(360deg)}}
+      @keyframes scan{0%,100%{stroke-dashoffset:170;opacity:.15}50%{stroke-dashoffset:-35;opacity:.8}}
+      @keyframes breathe{0%,100%{opacity:.58;transform:scale(.96)}50%{opacity:1;transform:scale(1.04)}}
+      @keyframes twinkle{0%,100%{opacity:.25;transform:scale(.75)}50%{opacity:1;transform:scale(1.25)}}
+      @keyframes blink{50%{opacity:0}}
+      @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;opacity:1!important}}
+    </style>
+  </defs>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-label="Adrian Ariel - Desenvolvedor de Software" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxNWY2M2UyZS0zZTBjLTRkNzYtYWJmMS04NmJlZjk0NTc0ZTYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaP8kIB283hop8Xy8w2fobFkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozNzIwMGRkMy01ZmVmLTQwNjgtODBlNi03ZmMyYWJkZDc1YmJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo9X9VUcEPTcWxXCDWrju3CQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgggKYwQpgl7gJrpNjxvUa4aDZHqNF/cOFf058F6j6y57qkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJKqc+w9KpyQWlMogJYNKn4AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDaqbpS+77rKUZDfHuYtftnQCGNsBVkkZblX1QqApXzl2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjXZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjE1ZjYzZTJlLTNlMGMtNGQ3Ni1hYmYxLTg2YmVmOTQ1NzRlNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjIwMzEyMzdiLTQwYmMtNDIxZS05NmQ5LWJhMWI1YmNhNGM4ZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCApjBCmCXuAmuk2PG9RrhoNkeo0X9w4V/TnwXqPrLnuqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggnltVX3DeP737XdNU0WxiCDACz3c4VmJZeteuUBEpTFiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg1wcJ7w4v02fzb9QSizN+1UQ2Xzq+uxUi5yQyISFOvEd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCZSGcD9bsjWW+uPxs40Aop1W09qrD49W6DuLjjtXa1GlffrelKJ801uQzb1oEu91ru7IBG/SyuLsomOVFk1AFw=</c2pa:manifest></metadata>
-  <style>
-    .fg    { fill: #e6edf3; }
-    .muted { fill: #7d8590; }
-    .acc   { fill: #58a6ff; }
-    .track { stroke: #30363d; }
-    .seg   { stroke: #58a6ff; }
+  <rect width="1200" height="300" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="19" fill="none" stroke="url(#edge)"/>
+  <path d="M54 246H1146" stroke="#26354a" stroke-width="1"/>
+  <path d="M54 246H342" stroke="url(#ring)" stroke-width="1.5" opacity=".8"/>
+  <circle cx="342" cy="246" r="2.5" fill="#9ac5ff" class="star delay1"/>
 
-    @media (prefers-color-scheme: light) {
-      .fg    { fill: #1f2328; }
-      .muted { fill: #656d76; }
-      .acc   { fill: #0969da; }
-      .track { stroke: #d0d7de; }
-      .seg   { stroke: #0969da; }
-    }
+  <g class="reveal">
+    <text x="66" y="80" class="eyebrow">ADRIAN ARIEL <tspan fill="#40536e">/</tspan> SOFTWARE DEVELOPER</text>
+    <text x="62" y="151" class="title">Building with purpose<tspan class="accent">.</tspan></text>
+  </g>
+  <g class="reveal2">
+    <circle cx="69" cy="200" r="3" fill="#76b1ff"/>
+    <text x="83" y="205" class="stack">C# <tspan fill="#526783">/</tspan> REACT <tspan fill="#526783">/</tspan> SQL</text>
+    <text x="66" y="274" class="eyebrow" letter-spacing="2">BACK-END · FRONT-END · DATA</text>
+    <text x="480" y="274" class="eyebrow" letter-spacing="2">IDEAS INTO SOFTWARE</text>
+  </g>
 
-    .mono { font: 400 15px ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
-    .name { font: 700 56px "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; letter-spacing: -1.5px; }
-    .role { font: 400 17px ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
-
-    .in { opacity: 0; animation: up .9s cubic-bezier(.2,.7,.2,1) forwards; }
-    .d1 { animation-delay: .1s; }
-    .d2 { animation-delay: .35s; }
-    @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
-    .r { opacity: 0; animation: rot 12s ease-in-out infinite; }
-    .r1 { animation-delay: 1s; }
-    .r2 { animation-delay: 4s; }
-    .r3 { animation-delay: 7s; }
-    .r4 { animation-delay: 10s; }
-    @keyframes rot {
-      0%   { opacity: 0; transform: translateY(8px); }
-      4%   { opacity: 1; transform: translateY(0); }
-      21%  { opacity: 1; transform: translateY(0); }
-      25%  { opacity: 0; transform: translateY(-8px); }
-      100% { opacity: 0; transform: translateY(-8px); }
-    }
-
-    .track { stroke-width: 1.5; stroke-dasharray: 240; stroke-dashoffset: 240; animation: draw 1.2s .7s ease forwards; }
-    @keyframes draw { to { stroke-dashoffset: 0; } }
-
-    .seg { stroke-width: 2; stroke-linecap: round; opacity: 0; animation: slide 4.5s 1.9s ease-in-out infinite alternate; }
-    @keyframes slide {
-      0%   { opacity: 1; transform: translateX(0); }
-      100% { opacity: 1; transform: translateX(200px); }
-    }
-
-    .blink { animation: blink 1.1s steps(1) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
-
-    @media (prefers-reduced-motion: reduce) {
-      .in, .r1 { opacity: 1; animation: none; }
-      .r2, .r3, .r4 { display: none; }
-      .track { stroke-dashoffset: 0; animation: none; }
-      .seg, .blink { animation: none; }
-    }
-  </style>
-
-  <text class="mono in d1" x="450" y="50" text-anchor="middle">
-    <tspan class="muted">~/adrian-ariel</tspan><tspan class="acc"> $ whoami</tspan><tspan class="acc blink">_</tspan>
-  </text>
-
-  <text class="name fg in d2" x="450" y="118" text-anchor="middle">Adrian Ariel</text>
-
-  <text class="role r r1" x="450" y="160" text-anchor="middle"><tspan class="acc">&gt; </tspan><tspan class="muted">APIs REST com C# e ASP.NET Core</tspan></text>
-  <text class="role r r2" x="450" y="160" text-anchor="middle"><tspan class="acc">&gt; </tspan><tspan class="muted">Interfaces modernas com React</tspan></text>
-  <text class="role r r3" x="450" y="160" text-anchor="middle"><tspan class="acc">&gt; </tspan><tspan class="muted">Front + API no mesmo deploy via wwwroot</tspan></text>
-  <text class="role r r4" x="450" y="160" text-anchor="middle"><tspan class="acc">&gt; </tspan><tspan class="muted">Estudante de Análise e Desenvolvimento de Sistemas</tspan></text>
-
-  <line class="track" x1="330" y1="198" x2="570" y2="198" fill="none"/>
-  <line class="seg" x1="330" y1="198" x2="370" y2="198" fill="none"/>
+  <circle cx="950" cy="150" r="112" fill="url(#corona)" class="glow"/>
+  <circle cx="950" cy="150" r="83" class="ringB"/>
+  <ellipse cx="950" cy="150" rx="100" ry="39" class="ringA"/>
+  <ellipse cx="950" cy="150" rx="100" ry="39" class="ringA" transform="rotate(62 950 150)" opacity=".6"/>
+  <circle cx="950" cy="150" r="48" fill="url(#planet)" stroke="#9fc5ff" stroke-opacity=".48"/>
+  <circle cx="950" cy="150" r="53" fill="none" stroke="#91bdff" stroke-opacity=".28" class="glow"/>
+  <path d="M890 150H1010" class="beam"/>
+  <circle cx="876" cy="107" r="2" fill="#e1edff" class="star"/>
+  <circle cx="1030" cy="196" r="2.5" fill="#a889ff" class="star delay1"/>
+  <circle cx="1006" cy="73" r="1.8" fill="#dce9ff" class="star delay2"/>
+  <circle cx="883" cy="214" r="1.7" fill="#9bc4ff" class="star delay3"/>
+  <circle cx="1060" cy="127" r="1.5" fill="#dce9ff" class="star delay2"/>
 </svg>
